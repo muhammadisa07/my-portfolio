@@ -1233,11 +1233,6 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.dark .dark\:shadow-slate-500 {
-  --tw-shadow-color: #64748b;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .dark .dark\:shadow-slate-600 {
   --tw-shadow-color: #475569;
   --tw-shadow: var(--tw-shadow-colored);
