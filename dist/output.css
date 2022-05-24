@@ -1067,9 +1067,8 @@ body {
 }
 
 .dark .navbar-fixed {
-  --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-  opacity: 0.5;
+  --tw-bg-opacity: 0.5;
 }
 
 .navbar-fixed {
@@ -1214,9 +1213,9 @@ body {
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:text-darkprimary {
+.dark .dark\:text-primary {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-white {
@@ -1224,9 +1223,19 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-darkprimary {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .dark .dark\:text-darksecondary {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .dark\:shadow-slate-500 {
+  --tw-shadow-color: #64748b;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .dark .dark\:shadow-slate-600 {
